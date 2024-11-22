@@ -1,0 +1,29 @@
+# Update pip, setuptools, jupyter-client and wheel
+pip>=23.2.1
+setuptools>=60.2.0
+wheel>=0.41.2
+jupyter-client>=5.3.4,<8
+
+# Core math and scientific libraries
+numpy==1.24.4
+scipy==1.10.1
+
+# 3D point cloud and geometry processing
+open3d
+
+# Data and configuration handling
+PyYAML==6.0.2
+
+# ROS and sensor message handling (for robotics projects)
+rospy
+sensor-msgs
+tf
+tf2-ros
+tf2-py
+
+# Text styling for terminal output
+colorama==0.4.3
+
+# STL file handling
+numpy-stl==3.1.2
+

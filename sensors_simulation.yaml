@@ -1,0 +1,27 @@
+ouster:
+  topic: /ouster/points
+  parent: base_footprint
+  color: red
+  crop: # wrt the base_footprint frame
+    min:
+      x: 0
+      y: -1
+      z: 0
+    max:
+      x: 2
+      y: 1
+      z: 1
+    
+xtion:
+  topic: /xtion/depth_registered/points
+  parent: torso_lift_link
+  color: purple
+  crop: # wrt the base_footprint frame
+    min:
+      x: 0
+      y: -1
+      z: 0
+    max:
+      x: 2
+      y: 1
+      z: 1
